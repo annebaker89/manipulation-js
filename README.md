@@ -1,21 +1,21 @@
-# objectify
+# manipulate-js
 An easy to use tool for JavaScript object manipulation
 
 ## Installation
 
 ### Node.js
 
-`objectify` is available on [npm](http://npmjs.org).
+`manipulate-js` is available on [npm](http://npmjs.org).
 
-    $ npm install objectify --save
+    $ npm install manipulate-js --save
 
 ## Usage
 
 ```javascript
-    var objectify = require('objectify'),
-        getLeftMissingKeys = objectify.getLeftMissingKeys,
-        getRightMissingKeys = objectify.getRightMissingKeys,
-        getMissingKeys = objectify.getMissingKeys;
+    var manipulate-js = require('manipulate-js'),
+        getLeftMissingKeys = manipulate-js.getLeftMissingKeys,
+        getRightMissingKeys = manipulate-js.getRightMissingKeys,
+        getMissingKeys = manipulate-js.getMissingKeys;
 
     const OBJECT = { prop1: { subProp1: 'value1', subProp2: 'value2' }, prop2: 'value2' },
         OBJECT_MISSING_PROP = { prop1: { subProp1: 'value1', subProp2: 'value2' } },
@@ -77,4 +77,4 @@ The missing keys functions are very useful for verifying that translation files 
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.1.1 Naming of package conflicted with npm.
