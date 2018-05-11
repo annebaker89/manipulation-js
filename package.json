@@ -1,6 +1,6 @@
 {
   "name": "manipulate-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to use tool for JavaScript object manipulation",
   "main": "lib/index.js",
   "scripts": {
