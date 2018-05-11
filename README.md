@@ -78,3 +78,4 @@ The missing keys functions are very useful for verifying that translation files 
 ## Release History
 
 * 0.1.1 Naming of package conflicted with npm.
+* 1.0.1 Fix package-json reference to GitHub.
