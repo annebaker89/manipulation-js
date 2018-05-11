@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annebaker89/objectify.git"
+    "url": "git+https://github.com/annebaker89/manipulation-js.git"
   },
   "author": "Hilary McReynolds <hilary.mcreynolds@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/annebaker89/objectify/issues"
+    "url": "https://github.com/annebaker89/manipulation-js/issues"
   },
-  "homepage": "https://github.com/annebaker89/objectify#readme",
+  "homepage": "https://github.com/annebaker89/manipulation-js#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2"
