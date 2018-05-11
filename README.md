@@ -79,3 +79,6 @@ The missing keys functions are very useful for verifying that translation files 
 
 * 0.1.1 Naming of package conflicted with npm.
 * 1.0.1 Fix package-json reference to GitHub.
+* 1.1.0 Testing procedure for version updates.
+* 1.2.0 Testing GitHub tagging with new documentation.
+* 1.2.1 Testing GitHub tag message loading.
