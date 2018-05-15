@@ -6,7 +6,7 @@ var manipulate = require('../lib/index');
  * and check edge cases. Run tests with 'npm test'.
  */
 
-describe('manipulate-js', function() {
+describe('missingKeys', function() {
 
     const OBJECT = {
         prop1: {
@@ -40,6 +40,9 @@ describe('manipulate-js', function() {
 
     it('should exist', function() {
         expect(manipulate).to.exist;
+        expect(manipulate.getLeftMissingKeys).to.exist;
+        expect(manipulate.getRightMissingKeys).to.exist;
+        expect(manipulate.getMissingKeys).to.exist;
     });
 
     describe('getLeftMissingKeys', function() {
